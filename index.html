@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+        <style>
+            body{
+                margin: 0;
+                padding: 0;           
+  background-image: url("Images/imageedit_1_8545551741.jpg");
+  background-position:500px 0 0 0 ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+            }
+            #title{
+                text-align: center;
+                font-family: 'Great Vibes', cursive;
+                font-weight: bold;
+                font-size: 130%;
+            }
+ 
+            nav {
+                position: fixed;
+        width: 100%;
+        overflow: auto;
+        background:rgba(0, 0, 0, 0.600);
+        height: 65px;
+    }
+    nav input[type=text] {
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+            ul {
+                width: 100%;
+                margin: 0 0 0 300px;
+                list-style: none;
+            }
+    
+    li{
+        float: left;
+    }
+    li a {
+        width: 100px;
+        font-weight: bold;
+        display: block;
+        padding: 20px 15px ;
+        margin:5px 100px 0px 0px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+    li a:hover {
+        background:rgb(82, 5, 5);
+        text-indent: -10%;
+        text-decoration-line: underline;
+        text-transform:unset;
+        border-radius:30px;
+    }
+    .logo img{
+        position: fixed;
+        max-width: 6%;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0;
+        z-index: 2;
+        border-radius: 10px;
+    }
+    .container1 {
+        height: 700px;
+        width: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #item-1{
+        margin-left: 50px;
+        width: 600px;
+        height: 550px;
+    }
+    #cover img{
+        margin-top: 100px;
+        margin-left: 150px;
+        border-radius: 50px;
+    }
+    #item-2{
+        margin-right: 50px;
+        width: 600px;
+        height: 550px;
+    }
+    
+    .item1 {
+        width: 500px;
+        height: 600px;
+        margin: 10px;
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.500);
+    }
+    #item-2{
+        font-size: 180%;
+        font-family: 'Great Vibes', cursive;
+    }
+    .button_cover{
+        border-radius: 10px;
+        color:white;
+        background-color: brown;
+        font-family:'Dancing Script', cursive;
+        font-size: 60%;
+        margin-left: 200px;
+    }
+
+   
+    #heading{
+    margin-top:10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 220%;
+    font-family:monospace ;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration:overline underline;
+    color:white;
+    }
+    #specialities{
+        margin-left:50px;
+        margin-top: 20px;
+        font-size:220%;
+        font-family:'Dancing Script', cursive;
+        font-style: italic;
+        text-decoration: underline;
+        color:white;
+        background-color: rgba(165, 42, 42, 0.733);
+        width: 150px;
+        border-radius:20px;
+    }    
+    .container2 {
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .item2 {
+        width: 250px;
+        border: 2px solid green;
+        margin: 10px;
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+    .item3 {
+        width: 250px;
+        border: 2px solid green;
+        margin: 10px;
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+    .add{
+        color:rgb(3, 73, 3);
+        margin-left: 80px;
+        float: right;   
+        font-weight: bold;
+        border-radius: 50px;
+        -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    }
+    .add:hover{
+        color: #ffffff; 
+        background-color:rgb(3, 73, 3) ;
+    }
+    #item-3 img{
+        margin-top: 0px;
+        border-radius: 20px;
+    }
+    #item-4 img{
+        border-radius: 20px;
+    }
+    #item-5 img{
+        border-radius: 20px;
+    }
+    #item-6 img{
+        border-radius: 20px;
+    }
+    #item-7 img{
+        border-radius: 20px;
+    }
+    #item-8 img{
+        border-radius: 20px;
+    }
+    #item-9 img{
+        border-radius: 20px;
+    }
+    #item-10 img{
+        border-radius: 20px;
+    }
+    #item-11 img{
+        border-radius: 20px;
+    }
+    #item-12 img{
+        border-radius: 20px;
+    }
+    div{
+        color: white;
+    }
+    #recommendations {
+        margin-top: 50px;
+        margin-left:50px;
+        font-size:220%;
+        font-family:'Dancing Script', cursive;
+        font-style: italic;
+        text-decoration: underline;
+        color:white;
+        background-color: rgba(165, 42, 42, 0.733);
+        width: 250px;
+        border-radius:20px;
+    }
+    .search1 input[type=text]{
+        margin-left: 1150px;
+        border-radius: 10px;
+        background-color:burlywood;
+        border-style:dotted;
+        border-width: medium;
+        border-color: chocolate;
+        float: right;
+        margin-right: 50px;
+    }
+    .search1 input[type=text]:focus {
+  border-color: aqua;
+  background-color: rgb(252, 249, 249);
+  color: darkred;
+}
+
+.container3 {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    justify-content: space-between;
+}
+.item4 {
+    width: 500px;
+    border: 2px solid green;
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.700);
+}
+#item-13{
+    margin-left: 75px;
+}
+#item-13 img{
+    border-radius: 40px;
+}
+#item-14{
+    margin-right: 75px;
+}
+#reviews{
+        margin-left:50px;
+        margin-top: 0px;
+        font-size:220%;
+        font-family:'Dancing Script', cursive;
+        font-style: italic;
+        text-decoration: underline;
+        color:white;
+        background-color: rgba(165, 42, 42, 0.733);
+        width: 120px;
+        border-radius:20px;
+    }
+    #name_mail{
+        margin-left: 20px;
+        font-family: 'Lobster', cursive;
+    }
+    #name_mail input[type=text]{
+        border-radius: 10px;
+    }
+    #review_description{
+        margin-left: 20px;
+        font-family: 'Lobster', cursive;
+    }
+    #review_description input[type=text]{
+        margin-left: 0px;
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    #submit_review input[type=submit]{
+        background-color: red;
+        color:white;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+    #contact {
+        background-color: rgba(0, 0, 0, 0.700);
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 1400px;
+        height: 250px;
+    }
+    #contact img{
+     margin-left: 350px;
+     border-radius: 25px;
+    }
+    #about input[type=text]{
+        background-color: rgba(0, 0, 0, 0.700);
+        width: 250px;
+        border-color:rgba(0, 0, 0, 0.700);
+        border-radius: 10px;
+    }
+    #about img{
+      border-radius: 25px;
+      margin-left: 10px;
+    }
+    ::placeholder{
+        color: white;
+    }
+    .search input[type=text]{
+        background-color: rgba(0, 0, 0, 0.700);
+        color: white;
+    }
+
+        </style>
+    </head>
+    
+    <body>
+        <div class="logo">
+        <a href="#"><img src="Images/logo2.jpg" height="65px"></a>
+        </div>
+        <nav>
+            <p style="float: left;color: white; margin-left: 70px;margin-top: 10px; font-family: 'Satisfy', cursive;font-size:130%;text-decoration: underline;transform: rotate(-10deg);">Flavours Of India</p>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#heading">Specialities</a></li>
+    <li><a href="#nav_assist">Recommendations</a></li>
+    <li><a href="#nav_assist1">Reviews</a></li>
+    <li><a href="#nav_assist2">Contact</a></li>
+    <div class="search">
+    <form>
+      <input type="text" placeholder="Search"/>
+    </form>
+</div>
+</ul>
+ </nav>
+ <br/><br/><br/><br/>  <div id="title">   
+ <p style="font-size: 200%;color">Discover the <br/>'True Flavours Of India'</p>
+</div>
+<div class="container1">
+   
+    <div class="item1" id="item-1">
+        <div id="cover">
+        <img src="Images/coverpage-removebg-preview.png" width="500px" height="350px"/>
+        </div>
+   
+    </div>
+    
+    <div class="item1" id="item-2"><br/><p> <br/>No matter what the situation, a good talk over good food with your loved ones always makes you feel great!!!
+    </p><br/>
+    <p>
+        Bringing on to your table the foods that brings out the 'true flavours of India' with diverse international cuisines.
+    </p><br/>
+    <a href="#heading">
+        <button class="button_cover">
+            Check our Specialities &#8594;
+        </button>
+</a>
+</div>
+    
+</div>
+<div id="heading">RESTAURANT'S MENU</div>
+<div id="specialities">
+    <p>Specialities: </p>
+</div>
+<p style="color: #ffffff; font-size: 130%; margin-left: 20px;font-family: 'Texturina', serif;">Here are some of our very reowned specialities.....</p>
+<div class="container2">
+    <div class="item2" id="item-3">
+        <img src="Images/dragon fruit salad.jpg" width="250px" height="200px" />
+        <strong>Dragon Fruit Salad</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+            A delicious and exotic salad, tossed in a honey mint vinaigrette and topped with macadamia nuts.</p>
+            <img src="Images/veg.png" width="20px" height="20px"  />
+            <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹249</p>
+    </div>
+    <div class="item2" id="item-4">
+        <img src="Images/RFO-1400x91Squash.jpg" width="250px" height="200px" />
+        <strong>Squash and kale wreath</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+        Try this delicious croissant pastry wreath that's bursting with sweet butternut squash, roasted garlic and crumbly salad cheese.   </p>
+        <img src="Images/veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹590</p>
+    </div>
+    <div class="item2" id="item-5">
+        <img src="Images/swordfish.jpg" width="250px" height="200px" />
+        <strong>Swordfish</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+        Block Island swordfish with littleneck clams, pork belly, salsa verde, fingerling potato and radish, a perfect one for fish lovers!</p>
+        <img src="Images/non-veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹740</p>
+    </div>
+    <div class="item2" id="item-6">
+        <img src="Images/grilled-chicken-620.jpg" width="250px" height="200px"/>
+        <strong>Grilled Chicken Escalope</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+        This marinated chicken is grilled to perfection and served with spring onion and cherry tomatoes.</p>
+        <img src="Images/non-veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹980</p>
+    </div>
+    <div class="item2" id="item-7">
+        <img src="Images/The-Taco-Twist.jpg" width="250px" height="200px" />
+       <strong>The Taco Twist</strong> 
+         <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">With its Swiss cake and American Nuts, this one comes decorated in sauces in its own taco waffle!</p>
+        <img src="Images/veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹349</p>
+    </div>
+</div>
+<div id="nav_assist"><br/></div>
+<div id="recommendations">
+    <p>Recommendations:</p>
+</div>
+<div class="search1"><input type="text" placeholder="&#128270;"></div>
+<p style="color: #ffffff; font-size: 130%; margin-left: 20px;font-family: 'Texturina', serif;">Here are our today's recommendations from exotic variety of delicacies.....</p>
+
+<div class="container2">
+    <div class="item3" id="item-8">
+        <img src="Images/feta-fusili-salad.jpg" width="250px" height="200px" />
+        <strong>Pasta Salad</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+            Salad with the goodness of black olives and cherry tomatoes, tossed up with fusilli and feta, and dressed in balsamic vinaigrette.</p>
+            <img src="Images/veg.png" width="20px" height="20px"  />
+            <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹249</p>
+    </div>
+    <div class="item3" id="item-9">
+        <img src="Images/malai.jpg" width="250px" height="200px" />
+        <strong>Malai Kofta</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+       Cottage cheese dumplings are stuffed with cashews and raisins and then dipped in a creamy, tangy and spicy curry.</p>
+        <img src="Images/veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹610</p>
+    </div>
+    <div class="item3" id="item-10">
+        <img src="Images/butterchicken1.jpg" width="250px" height="200px" />
+        <strong>Butter Chicken</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+            Rich and creamy blend of tomatoes, butter, curry and spices with a mild meat.</p>
+        <img src="Images/non-veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹760</p>
+    </div>
+    <div class="item3" id="item-11">
+        <img src="Images/egg benedict.jpeg" width="250px" height="200px"/>
+        <strong>Eggs Benedict</strong>
+        <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">
+        Classic pile-up of toasted English muffins topped with seared Canadian bacon, poached eggs and creamy hollandaise sauce</p>
+        <img src="Images/non-veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹480</p>
+    </div>
+    <div class="item3" id="item-12">
+        <img src="Images/Icecream.jpg" width="250px" height="200px" />
+       <strong>The Triple Sundae</strong> 
+         <input type="submit" value="ADD+" class="add" />
+        <p style="font-family: 'Dancing Script', cursive; font-size:130%; margin-top:5px;">It’s got vanilla, chocolate and strawberry icecream served in a banana boat!!</p>
+        <img src="Images/veg.png" width="20px" height="20px" />
+        <p style="float: right; margin-top: 0; background-color:brown;">PRICE:₹399</p>
+    </div>
+
+    
+</div>
+<div id="nav_assist1"> <br/><br/></div>
+<div id="reviews">
+    <p>Reviews:</p>
+</div>
+<div class="container3">
+    <div class="item4" id="item-13">
+       <img src="Images/review1.png" width="80px" height="80px" />
+        <p><span style="font-family: 'Satisfy', cursive; font-size: 130%;">"Excellent"</span><br/> <span style="color: yellow;">&starf;&starf;&starf;&starf;&starf;</span><br/> Ross F.<br/>A must for anyone who prefers good food cooked to perfection.</p>
+    <img src="Images/review6.png"width="80px" height="80px"/>
+    <p><span style="font-family: 'Satisfy', cursive; font-size: 130%;">"Fantastic"</span><br/> <span style="color: yellow;">&starf;&starf;&starf;&starf;</span><br/> Akshay R.<br/>Exceeded our expectations! Food was exceptional along with good service.</p>
+        <img src="Images/review5.png"width="80px" height="80px"/>
+        <p><span style="font-family: 'Satisfy', cursive; font-size: 130%;">"Amazing!!"</span><br/> <span style="color: yellow;">&starf;&starf;&starf;&starf;&starf;</span><br/> Nithya M.<br/>This place has got the perfect ambience making any simple occasion a special one.</p>
+
+    </div>
+    <p>
+        </p>
+        <div class="item4" id="item-14">
+            <h1 style="font-family: 'Texturina', serif; text-align: center;">How was Flavours Of India?</h1>
+            We would appreciate  your feedback. Please take a moment to fill out this form.
+            <br/><br/><br/>
+           <p style="margin-left: 20px;"><div id="name_mail">
+            Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/><br/><br/><br/><br/>
+            E-mail ID:&nbsp;<input type="text"/></div><br/><br/><br/><br/>
+           <div id="review_description"> Review:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/></div>
+        </p>
+          <div id="submit_review"> <input type="submit" value="SUBMIT REVIEW" /> </div>
+          <p style="font-family: 'Kaushan Script', cursive; font-size: 120%;">Thank You, and we look forward to see to seeing you again at 'Flavours Of India'!!</p>
+        </div>
+</div>
+
+<div id="nav_assist2"><br/></div>
+<div id="contact">
+<p>
+  <p style="font-size: 200%; margin-left: 120px;">Contact Us:</p>
+   <img src="Images/location.jpg" width="50px" height="50px" />
+   <img src="Images/phone.jpg" width="50px" height="50px" />
+   <img src="Images/mail.jpg" width="50px" height="50px" />
+   <p style="margin-left: 230px; font-size: 120%;">
+    Apollo Bandar, Colaba, Mumbai, <span style="margin-left: 220px;">079 1234 45678</span>  <span style="margin-left: 220px;">flavoursofindia@mailbox.com</span>
+    <br/>
+    <span style="margin-left: 40px;">Maharashtra-400001</span> <span style="margin-left: 275px;">079 1234 45679</span> <span style="margin-left: 220px;">flavoursofindia@support.com</span>
+   </p>
+</p>
+</div>
+
+
+<div id="about">
+<p><span style="font-weight:bold; margin-left: 300px;">Menu Links</span>
+<span style="font-weight: bold;margin-left: 200px;">Support</span>
+<span style="font-weight: bold;margin-left: 400px;">Join our Newsletter</span><br/><br/>
+<span style="margin-left: 300px;"><a style="color:white ; text-decoration: none;" href="#">Home</a></span>
+<span style="margin-left: 245px;">Privacy Policy</span>
+<span style="margin-left: 360px;"><input type="text" placeholder="Enter your email address here"> </span>
+<span style="margin-left: 300px;"><a style="color:white ; text-decoration: none;" href="#heading">Specialities</a></span>
+<span style="margin-left: 210px;">Terms & Conditions</span><br/>
+<span style="margin-left: 300px;"><a style="color:white ; text-decoration: none;" href="#nav_assist">Recommendations</a></span>
+<span style="margin-left: 165px;">Order & Pre-Order</span>
+<span style="margin-left: 340px;">Follow Us</span><br/>
+<span style="margin-left: 300px;"><a style="color:white ; text-decoration: none;" href="#nav_assist1">Reviews</a></span>
+<span style="margin-left: 230px;">Refund Policy</span><br/>
+<span style="margin-left: 1000px;"><img src="Images/facebook.png" width="50px" height="50px"/>
+    <img src="Images/twitter.png" width="50px" height="50px"/>
+    <img src="Images/insta.jpg" width="50px" height="50px"/>
+    <img src="Images/g+.png" width="50px" height="50px"/>
+    <img src="Images/pinterest.jpg" width="50px" height="50px"/>
+</span>
+<br/><br/><span style="margin-left: 100px;text-decoration: underline;background-color: rgba(0, 0, 0, 0.700);font-size: 110%;"><a style="color:white ; text-decoration: none;font-weight: bolder;" href="#">Back to Top</a></span>
+</p>
+
+</div>
+
+    </body>
+</html>
